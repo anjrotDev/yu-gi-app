@@ -1,12 +1,13 @@
 import React from "react";
-import "./Navbar.css";
+import { Container } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
-export const Navbar = () => {
+export const MyNavbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg ">
-      <a className="navbar-brand" href="#">
-        Yu-gi-App!!
-      </a>
-    </nav>
+    <Navbar bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home">Yu-Gi-App!!</Navbar.Brand>
+      </Container>
+    </Navbar>
   );
 };
