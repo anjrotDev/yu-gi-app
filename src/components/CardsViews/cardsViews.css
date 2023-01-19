@@ -1,0 +1,15 @@
+.cards-views {
+  margin-top: 0.5rem;
+  background-color: #212529;
+}
+
+img {
+  padding-top: 1.5rem;
+  width: 70%;
+  height: 70%;
+}
+
+.footer-cards {
+  margin-top: 1rem;
+  color: white;
+}
